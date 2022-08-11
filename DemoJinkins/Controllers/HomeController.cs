@@ -15,6 +15,7 @@ namespace DemoJinkins.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+            // make some changes
             _logger = logger;
         }
 
